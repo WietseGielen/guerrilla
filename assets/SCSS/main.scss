@@ -9,7 +9,7 @@ html {scroll-behavior: smooth;}
 body {
     display: grid;
     grid-template-columns: 40% 30% 30%;
-    grid-template-rows: 100px auto auto 100px;
+    grid-template-rows: 100px auto auto auto 100px;
     grid-template-areas:
         "header header navigation"
         "image intro intro"
@@ -19,7 +19,7 @@ body {
 
     font-family: sans-serif;
 
-    background: url(http://sogoodnotnormal.com/sites/all/themes/sogoodnotnormal/img/yamfood.jpg);
+    background: url("https://heartbeetkitchen.com/foodblog/wp-content/uploads/2019/01/sesame-thai-rice-noodles-02.jpg");
     background-size: cover;
 }
 
@@ -38,14 +38,17 @@ body {
         max-height: 100px;
     }
 
-    h2 {
+    h1 {
         display: inline;
-        vertical-align: bottom;
+        vertical-align: middle;
+        font-size: 75px;
     }
     
-    h1 {
-        @extend h2;
-        font-size: 75px;
+    h2 {
+        display: inline;
+        font-size: 25px;
+
+        vertical-align: unset;
     }
 
     
@@ -67,6 +70,8 @@ body {
         background: $primary-dark;
         color: $secondary;
 
+        font-size: 25px;
+
         text-decoration: none;
         text-align: center;
 
@@ -81,20 +86,37 @@ body {
         }
     }
 
-
 }
 
 .image {
     grid-area: image;
-    position: relative;
+    position: absolute;
 
     margin: auto;
 
     img {
-        height: 100%;
-        vertical-align: middle;
+        width: 90%;
+        margin-top: 110px;
+        top: 0
     }
 
+}
+
+%margin {margin-left: 20px;}
+%h2     {
+    @extend %margin;
+    font-size: 35px;
+}
+%h3     {
+    @extend %margin;
+    text-decoration: underline;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+%p      {
+    @extend %margin;
+    font-size: 20px;
 }
 
 .intro {
@@ -103,12 +125,14 @@ body {
 
     margin: 10px 0 0 0;
 
+    min-height: 850px;
+
     background: $primary;
     color: $color;
 
-    h2, h3, p {
-        margin-left: 20px;
-    }
+    h2 {@extend %h2;} 
+    h3 {@extend %h3;}
+    p  {@extend %p; width: 50%; text-align: justify;}
 
 }
 
@@ -120,9 +144,9 @@ body {
     background: $primary-dark;
     color: $color;
 
-    h2, h3, p {
-        margin-left: 20px;
-    }
+    h2 {@extend %h2;} 
+    h3 {@extend %h3;}
+    p  {@extend %p;}
 
     .left {
         float: left;
@@ -140,23 +164,70 @@ body {
     }
 
     hr {
-        width: 97%;
+        width: 96.5%;
         text-align: center;
-        border-top: dotted 1px;
+        border: none;
+        border-top: dotted 3px;
+
+        &.last {
+            padding-bottom: 25px;
+        }
     }
 }
 
 .reservatie {
     grid-area: reservatie;
     position: relative;
+    min-height: 100px;
 
     margin: 0 0 10px 0;
 
     background: $primary;
     color: $color;
 
-    h2, h3, p {
+    h2 {@extend %h2;} 
+    h3 {@extend %h3;}
+    p  {@extend %p;}
+
+    table {
+        width: 50%;
         margin-left: 20px;
+    }
+
+    form {
+        position: relative;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    td {
+        width: 25%;
+        margin: 0;
+
+        p {
+            margin-left: 0;
+        }
+
+        input {
+            min-width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    .opmerking{
+        width: 50%;
+
+        textarea {
+            width: 100%;
+            margin-left: 20px;
+        }
+    }
+
+    button {
+        padding: 15px;
+        margin: 10px 0 30px 20%;
     }
 }
 
@@ -164,12 +235,23 @@ body {
     grid-area: footer;
     position: relative;
 
-    padding: 35px 0;
+    padding: 25px 0;
 
     background: $primary-dark;
     color: $color;
 
+    display: inline;
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+        text-align: right;
+    }
+
     p {
-        padding-left: 20px;
+        padding: 0 20px;
     }
 }

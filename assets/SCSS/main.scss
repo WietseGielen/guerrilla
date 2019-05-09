@@ -8,11 +8,12 @@ html {scroll-behavior: smooth;}
 
 body {
     display: grid;
-    grid-template-columns: 40% 30% 30%;
-    grid-template-rows: 100px auto auto auto 100px;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 100px auto auto auto auto 100px;
     grid-template-areas:
         "header header navigation"
         "image intro intro"
+        "image open open"
         "image menu menu"
         "image reservatie reservatie"
         "footer footer footer";
@@ -65,17 +66,18 @@ body {
     }
 
     li {
-        display: inline-block;
-
         background: $primary-dark;
         color: $secondary;
 
         font-size: 25px;
 
         text-decoration: none;
+        float: right;
         text-align: center;
 
-        width: 49%;
+        margin: 0 0 0 10px;
+
+        width: 30%;
         height: 100%;
 
         padding: 25px 0;
@@ -142,12 +144,23 @@ body {
 
 }
 
+.open {
+    grid-area: open;
+
+    background: $primary-dark;
+    color: $color;
+
+    h2 {@extend %h2;} 
+    h3 {@extend %h3;}
+    p  {@extend %p;}
+}
+
 .menu {
     grid-area: menu;
     position: relative;
     display: inline-block;
 
-    background: $primary-dark;
+    background: $primary;
     color: $color;
 
     h2 {@extend %h2;} 
@@ -188,7 +201,7 @@ body {
 
     margin: 0 0 10px 0;
 
-    background: $primary;
+    background: $primary-dark;
     color: $color;
 
     h2 {@extend %h2;} 
@@ -243,7 +256,7 @@ body {
 
     padding: 25px 0;
 
-    background: $primary-dark;
+    background: $primary;
     color: $color;
 
     display: inline;

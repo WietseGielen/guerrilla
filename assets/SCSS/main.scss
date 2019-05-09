@@ -94,10 +94,16 @@ body {
 
     margin: auto;
 
-    img {
-        width: 90%;
-        margin-top: 110px;
+    iframe {
+        position: relative;
+        width: 65%;
+        margin-top: 10px;
         top: 0
+    }
+
+    img {
+        @extend iframe;
+        margin-top: 110px;
     }
 
 }

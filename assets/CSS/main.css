@@ -83,35 +83,41 @@ body {
 }
 
 /* line 97, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
-.image img {
-  width: 90%;
-  margin-top: 110px;
+.image iframe, .image img {
+  position: relative;
+  width: 65%;
+  margin-top: 10px;
   top: 0;
 }
 
-/* line 105, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 104, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.image img {
+  margin-top: 110px;
+}
+
+/* line 111, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .intro h2, .menu h2, .reservatie h2, .intro h3, .menu h3, .reservatie h3, .intro p, .menu p, .reservatie p {
   margin-left: 20px;
 }
 
-/* line 106, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 112, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .intro h2, .menu h2, .reservatie h2 {
   font-size: 35px;
 }
 
-/* line 110, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 116, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .intro h3, .menu h3, .reservatie h3 {
   text-decoration: underline;
   font-size: 25px;
   padding-top: 20px;
 }
 
-/* line 117, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 123, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .intro p, .menu p, .reservatie p {
   font-size: 20px;
 }
 
-/* line 122, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 128, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .intro {
   grid-area: intro;
   position: relative;
@@ -121,13 +127,13 @@ body {
   color: white;
 }
 
-/* line 135, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 141, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .intro p {
   width: 50%;
   text-align: justify;
 }
 
-/* line 139, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 145, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .menu {
   grid-area: menu;
   position: relative;
@@ -136,14 +142,14 @@ body {
   color: white;
 }
 
-/* line 151, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 157, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .menu .left {
   float: left;
   left: 0;
   width: 78%;
 }
 
-/* line 157, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 163, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .menu .right {
   float: right;
   text-align: right;
@@ -153,7 +159,7 @@ body {
   margin-right: 20px;
 }
 
-/* line 166, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 172, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .menu hr {
   width: 96.5%;
   text-align: center;
@@ -161,12 +167,12 @@ body {
   border-top: dotted 3px;
 }
 
-/* line 172, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 178, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .menu hr.last {
   padding-bottom: 25px;
 }
 
-/* line 178, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 184, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .reservatie {
   grid-area: reservatie;
   position: relative;
@@ -176,57 +182,57 @@ body {
   color: white;
 }
 
-/* line 192, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 198, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .reservatie table {
   width: 50%;
   margin-left: 20px;
 }
 
-/* line 197, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 203, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .reservatie form {
   position: relative;
 }
 
-/* line 200, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 206, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .reservatie form p {
   margin-bottom: 0;
 }
 
-/* line 205, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 211, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .reservatie td {
   width: 25%;
   margin: 0;
 }
 
-/* line 209, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 215, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .reservatie td p {
   margin-left: 0;
 }
 
-/* line 213, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 219, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .reservatie td input {
   min-width: 100%;
   margin-top: 20px;
 }
 
-/* line 219, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 225, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .reservatie .opmerking {
   width: 50%;
 }
 
-/* line 222, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 228, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .reservatie .opmerking textarea {
   width: 100%;
   margin-left: 20px;
 }
 
-/* line 228, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 234, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .reservatie button {
   padding: 15px;
   margin: 10px 0 30px 20%;
 }
 
-/* line 234, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 240, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .footer {
   grid-area: footer;
   position: relative;
@@ -236,66 +242,66 @@ body {
   display: inline;
 }
 
-/* line 245, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 251, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .footer .left {
   float: left;
 }
 
-/* line 249, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 255, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .footer .right {
   float: right;
   text-align: right;
 }
 
-/* line 254, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+/* line 260, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
 .footer p {
   padding: 0 20px;
   font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 261, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+  /* line 267, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
   body {
     grid-template-columns: 40% 30% 30%;
     grid-template-rows: 100px 100px auto auto auto 100px;
     grid-template-areas: "header header header" "navigation navigation navigation" "intro intro intro" "menu menu menu" "reservatie reservatie reservatie" "footer footer footer";
   }
-  /* line 273, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+  /* line 279, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
   .image {
     display: none;
   }
-  /* line 278, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+  /* line 284, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
   .header img {
     text-align: center;
     margin: 0 41%;
   }
-  /* line 283, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+  /* line 289, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
   .header h1, .header h2 {
     display: none;
   }
-  /* line 289, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+  /* line 295, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
   .navigation li {
     width: 45%;
     margin-left: 0;
   }
-  /* line 296, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+  /* line 302, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
   .intro p {
     width: 93%;
   }
-  /* line 302, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+  /* line 308, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
   .menu p {
     width: 93%;
     text-align: justify;
   }
-  /* line 307, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+  /* line 313, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
   .menu .left {
     width: 60%;
   }
-  /* line 314, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+  /* line 320, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
   .reservatie .opmerking p {
     width: max-content;
   }
-  /* line 318, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+  /* line 324, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
   .reservatie .opmerking textarea {
     width: 370px;
   }

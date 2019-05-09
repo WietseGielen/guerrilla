@@ -255,3 +255,68 @@ body {
         padding: 0 20px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        grid-template-columns: 40% 30% 30%;
+        grid-template-rows: 100px 100px auto auto auto 100px;
+        grid-template-areas:
+            "header header header"
+            "navigation navigation navigation"
+            "intro intro intro"
+            "menu menu menu"
+            "reservatie reservatie reservatie"
+            "footer footer footer";
+    }
+
+    .image {
+        display: none;
+    }
+
+    .header {
+        img {
+            text-align: center;
+            margin: 0 41%;
+        }
+
+        h1, h2 {
+            display: none;
+        }
+    }
+
+    .navigation {
+        li {
+            width: 45%;
+            margin-left: 0;
+        }
+    }
+
+    .intro {
+        p {
+            width: 93%;
+        }
+    }
+
+    .menu {
+        p {
+            width: 93%;
+            text-align: justify;
+        }
+
+        .left {
+            width: 60%;
+        }
+    }
+
+    .reservatie {
+        .opmerking {
+            p {
+                width: max-content;
+            }
+
+            textarea {
+                width: 370px;
+            }
+        }
+    }
+}

@@ -245,7 +245,7 @@ body {
   grid-area: footer;
   position: relative;
   padding: 25px 0;
-  background: #24dad1;
+  background: black;
   color: white;
   display: inline;
 }

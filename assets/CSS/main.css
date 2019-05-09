@@ -1,0 +1,167 @@
+/* line 7, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 9, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+body {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-rows: 100px auto auto 100px;
+  grid-template-areas: "header header navigation" "image intro intro" "image menu menu" "image reservatie reservatie" "footer footer footer";
+  font-family: sans-serif;
+  background: url(http://sogoodnotnormal.com/sites/all/themes/sogoodnotnormal/img/yamfood.jpg);
+  background-size: cover;
+}
+
+/* line 26, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.header {
+  grid-area: header;
+  position: relative;
+  vertical-align: middle;
+  background: black;
+  color: white;
+}
+
+/* line 35, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.header img {
+  display: inline;
+  vertical-align: middle;
+  max-height: 100px;
+}
+
+/* line 41, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.header h2, .header h1 {
+  display: inline;
+  vertical-align: bottom;
+}
+
+/* line 46, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.header h1 {
+  font-size: 75px;
+}
+
+/* line 54, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.navigation {
+  grid-area: navigation;
+  position: inline-block;
+  background: black;
+}
+
+/* line 60, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.navigation ul {
+  list-style: none;
+}
+
+/* line 64, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.navigation li {
+  display: inline-block;
+  background: #15837d;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 49%;
+  height: 100%;
+  padding: 25px 0;
+}
+
+/* line 78, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.navigation li:hover {
+  background: white;
+  color: #15837d;
+}
+
+/* line 87, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.image {
+  grid-area: image;
+  position: relative;
+  margin: auto;
+}
+
+/* line 93, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.image img {
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 100, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.intro {
+  grid-area: intro;
+  position: relative;
+  margin: 10px 0 0 0;
+  background: #24dad1;
+  color: white;
+}
+
+/* line 109, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.intro h2, .intro .header h1, .header .intro h1, .intro h3, .intro p {
+  margin-left: 20px;
+}
+
+/* line 115, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.menu {
+  grid-area: menu;
+  position: relative;
+  display: inline-block;
+  background: #15837d;
+  color: white;
+}
+
+/* line 123, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.menu h2, .menu .header h1, .header .menu h1, .menu h3, .menu p {
+  margin-left: 20px;
+}
+
+/* line 127, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.menu .left {
+  float: left;
+  left: 0;
+  width: 78%;
+}
+
+/* line 133, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.menu .right {
+  float: right;
+  text-align: right;
+  right: 0;
+  width: 18%;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+/* line 142, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.menu hr {
+  width: 97%;
+  text-align: center;
+  border-top: dotted 1px;
+}
+
+/* line 149, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.reservatie {
+  grid-area: reservatie;
+  position: relative;
+  margin: 0 0 10px 0;
+  background: #24dad1;
+  color: white;
+}
+
+/* line 158, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.reservatie h2, .reservatie .header h1, .header .reservatie h1, .reservatie h3, .reservatie p {
+  margin-left: 20px;
+}
+
+/* line 163, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.footer {
+  grid-area: footer;
+  position: relative;
+  padding: 35px 0;
+  background: #15837d;
+  color: white;
+}
+
+/* line 172, D:/BeCode-projects/guerrilla/assets/SCSS/main.scss */
+.footer p {
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -23,6 +23,8 @@ Imaginary cliënt has problems with their website.
 ### CSS
 ![alt-text](https://i.ibb.co/28Rr3K2/CSSpreview.png)
 
+## Time Management
+
 ## Pricing
 1 day work ~ 75 - 100 EUR
 

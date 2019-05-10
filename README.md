@@ -30,7 +30,7 @@ Imaginary cliënt has problems with their website.
 09:00 - 10:30 - Grid  
 10:45 - 12:15 - Content  
 13:15 - 15:00 - Responsiveness and styling fixes (TRY - ERROR - SEARCH - TRY AGAIN)   
-15:00 - 17:00 - Opening hours added  
+15:00 - 17:00 - Opening hours and reservation form added  
 After hours (+/- 2h) - Sidebar  
 
 ## Pricing

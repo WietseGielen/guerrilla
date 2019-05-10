@@ -11,7 +11,7 @@
 <body>
     <div class="header">
         <img src="assets/images/logo.jpg" alt="Yam Tam logo">
-        <h1>Yam Thai . Thai Food Café </h1>
+        <h1>Yam Thai . Thai Food Café</h1>
     </div>
     <div class="navigation"><ul>
         <a href="#reserveren"><li>Reserveren</li></a>
@@ -20,10 +20,10 @@
     </ul></div>
     <div class="image">
         <img src="assets/images/building.PNG" alt="Yam Thai Restaurant"> 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.490350653057!2d4.392293915969612!3d51.21004204022163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6edb4412811%3A0xcfa84ec0502e1d7a!2sYAM+THAI!5e0!3m2!1snl!2sbe!4v1557410886263!5m2!1snl!2sbe" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>   
+        <iframe id="open" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.490350653057!2d4.392293915969612!3d51.21004204022163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6edb4412811%3A0xcfa84ec0502e1d7a!2sYAM+THAI!5e0!3m2!1snl!2sbe!4v1557410886263!5m2!1snl!2sbe" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>   
     </div>
     <div class="open">
-        <h2 id="open">Openingsuren</h2>
+        <h2>Openingsuren</h2>
         <p><b>Maandag:</b> 12:00-14:30 ~ 18:00-22:00</p>
         <p><b>Dinsdag:</b> 12:00-14:30 ~ 18:00-22:00</p>
         <p><b>Woensdag:</b> 12:00-14:30 ~ 18:00-22:00</p>
@@ -60,26 +60,45 @@
         </p> 
         <p>Geef eens een cadeaubon cadeau!</p>
     </div>
-    <div class="menu">
-        <h2 id="menu">Menu</h2>
+    <div class="cards">
+        <div class="card">
+            <a href="#1">
+                <img src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/1033249144001/df5a88aa-fb3e-4bcc-a977-56aead3afae7/b9a19432-e9ee-46d6-b8bc-899f153dab40/1280x720/match/image.jpg">
+            </a>
+        </div>
+        <div class="card">
+            <a href="#2"><img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/7c/63/16/pla-rad-prik-fish-in.jpg"></a>
+        </div>
+        <div class="card">
+            <a href="#3"><img src="https://static1.squarespace.com/static/54514578e4b0d88e86d8aaed/54c6eefee4b048ebceb10b43/54c6ef00e4b048ebceb10e5f/1422323742068/?format=750w"></a>
+        </div>
+        <div class="card">
+            <a href="#4"><img src="https://assets.bonappetit.com/photos/57adc3181b3340441497568a/16:9/w_1000,c_limit/spicy-pork-and-mustard-green-soup.jpg"></a>
+        </div>
+        <div class="card">
+            <a href="#5"><img src="https://bigoven-res.cloudinary.com/image/upload/thai-spicy-fried-rice.jpg"></a>
+        </div>
+    </div>
+    <div id="menu" class="menu">
+        <h2>Menu</h2>
         <p>
             Alle gerechten worden a la minute vers gemaakt door onze Thaise chefs met uitsluitend ingrediënten van topkwaliteit. 
             Mocht u allergisch zijn aan bepaalde ingrediënten, gelieve het ons te melden.
         </p>
 
-        <h3>Suggesties</h3>
+        <h3 id="1">Suggesties</h3>
         <p class="left"><b>Chicken Lemongrass</b> - Chicken salad with coriander, red onion, cucumber and cashews</p>
         <p class="right">€16,00</p>
-        <hr>
+        <hr id="2">
         <p class="left"><b>Pla Rad Prik</b> - Deepfried seabass and chili</p>
         <p class="right">€18,00</p>
-        <hr>
+        <hr id="3">
         <p class="left"><b>Yam Khai Dao</b> - egg salad</p>
         <p class="right">€11,50</p>
-        <hr>
+        <hr id="4">
         <p class="left"><b>Noodle soup with pork</b></p>
         <p class="right">€14,00</p>
-        <hr>
+        <hr id="5">
         <p class="left"><b>Spicy Fried Rice</b> - Chicken, vegetables, khai dao, egg on top!</p>
         <p class="right">€16,00</p>
         <hr>
@@ -176,7 +195,7 @@
             <table>
                 <tr>
                     <td>
-                        <p>Naam</p>
+                        <p>Naam:</p>
                     </td>
                     <td>
                         <input type="text">
@@ -184,7 +203,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>Datum</p>
+                        <p>Datum:</p>
                     </td>
                     <td>
                         <input type="datetime-local">
@@ -192,7 +211,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>Aantal personen</p>
+                        <p>Aantal personen:</p>
                     </td>
                     <td>
                         <input type="number">
@@ -200,7 +219,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>Telefoonnummer</p>
+                        <p>Telefoonnummer:</p>
                     </td>
                     <td>
                         <input type="tel">
@@ -208,7 +227,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>E-mail</p>
+                        <p>E-mail:</p>
                     </td>
                     <td>
                         <input type="email">

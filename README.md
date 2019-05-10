@@ -19,6 +19,7 @@ Imaginary cliënt has problems with their website.
  
 ## Code
 <p align="center"><img src="https://i.ibb.co/Dg9LC7D/cards-preview.png"></p>
+
 ### HTML
 ![alt-text](https://i.ibb.co/ZTg7YJd/html-preview.png)
 ### CSS

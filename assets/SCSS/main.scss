@@ -85,8 +85,9 @@ body {
         padding: 25px 0;
 
         &:hover {
-            background: $secondary;
+            background: $primary;
             color: $primary-dark;
+            box-shadow: 0 0 20px 5px gray;
         }
     }
 

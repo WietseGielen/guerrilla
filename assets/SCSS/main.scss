@@ -110,6 +110,7 @@ body {
     img {
         @extend iframe;
         height: 850px;
+        object-fit: cover;
     }
 
 }

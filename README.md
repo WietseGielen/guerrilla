@@ -16,6 +16,7 @@ Imaginary cliënt has problems with their website.
  
 ## Yet to add
  * Slideshow (images)
+ * Contact (e-mail, tel)
  
 ## Styling options
  * Own grid (basic)

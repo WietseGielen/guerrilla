@@ -11,11 +11,15 @@ Imaginary cliënt has problems with their website.
 [![alt-text](https://i.ibb.co/NYztVgY/YAM-AFTER.png) 
 ![alt-text](https://i.ibb.co/3cL3RHW/YAMAFTERopen.png)](https://wietsegielen.github.io/guerrilla/index.html)
 
-## Yet to fix
+## Current problems
 
  * Positioning
  * Margin
  * Padding
+ 
+## Charging
+
+1 day work ~ 75 - 100 EUR
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

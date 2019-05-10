@@ -19,7 +19,7 @@ Imaginary cliënt has problems with their website.
  
 ## Styling options
  * Own grid (basic)
- * Cards with suggetion previews
+ * Cards with suggestion previews
  * Maps preview
  
 ## Code (Cards)

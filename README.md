@@ -28,7 +28,7 @@ Imaginary cliënt has problems with their website.
 ## Time Management
 
 09:00 - 10:30 - Grid  
-10:45 - 12:15 - Content  
+10:45 - 12:15 - Content added (menu, navigation header, footer, images)
 13:15 - 15:00 - Responsiveness and styling fixes (TRY - ERROR - SEARCH - TRY AGAIN)   
 15:00 - 17:00 - Opening hours and reservation form added  
 After hours (+/- 2h) - Sidebar  

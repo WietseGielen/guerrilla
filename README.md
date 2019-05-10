@@ -5,7 +5,7 @@ Imaginary cliënt has problems with their website.
 ## Website
 
 ### Before
-[![alt-text](https://i.ibb.co/ZBXXH99/YAMbefore.png)](http://sogoodnotnormal.com/yamthai)  
+[![alt-text](https://i.ibb.co/d4nCy3c/YAMbefore.png)](http://sogoodnotnormal.com/yamthai)  
 
 ### After
 [![alt-text](https://i.ibb.co/NYztVgY/YAM-AFTER.png) 
